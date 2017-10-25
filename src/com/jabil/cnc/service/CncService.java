@@ -2,6 +2,7 @@ package com.jabil.cnc.service;
 
 import java.util.Date;
 
+
 public interface CncService {
 	
    //JABIL系统用户帐号是否存在验证

@@ -1,3 +1,4 @@
+
 package com.jabil.cnc.service;
 
 import java.util.Date;
@@ -5,7 +6,7 @@ import java.util.Date;
 import javax.jws.WebService;
 
 @WebService
-public class CncServiceImpl implements CncService{
+public  class CncServiceImpl implements CncService{
 
 	@Override
 	public void CheckJabilAccount(String NT) {
@@ -18,6 +19,7 @@ public class CncServiceImpl implements CncService{
 		// TODO Auto-generated method stub
 		
 	}
+
 	@Override
 	public String GetEQPHome(String Factory, Date StartTime) {
 		// TODO Auto-generated method stub
@@ -176,6 +178,5 @@ public class CncServiceImpl implements CncService{
 		return null;
 	}
 
-	
-	
+
 }
